@@ -1,0 +1,47 @@
+1)
+echo "Sami Tchebibi">> CONTRIBUTORS.md
+git add CONTRIBUTORS.md
+git commit -m "C1"
+git push
+
+2)
+git add Commands.txt
+git commit -m "C2"
+git add Commands.txt
+git commit -m "C3"
+git push
+
+3)
+git branch dev
+git switch dev
+echo >>requirements.txt
+git add requirements.txt
+git commit -m "C31"
+git add requirements.txt
+git commit -m "C32"
+git push
+
+4)
+git switch main
+echo >> package.json
+git add package.json
+git commit -m "C4"
+git merge dev -m "C5"
+git push
+
+5)
+git add requirements.txt
+git commit -m "C6"
+git checkout cb35bf0
+echo "t'as les crampté ???">>MANIFEST.xml
+git add MANIFEST.xml
+git commit -m "D51"
+git add MANIFEST.xml
+git commit -m "D52"
+git branch "detached"
+git push origin HEAD:main
+
+6)
+git add Commands.txt
+git ci -m "Dernier commit"
+git push
