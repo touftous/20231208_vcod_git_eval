@@ -15,3 +15,7 @@ Pour chaque commande git que vous exécutez, collez la dans un fichier "Commands
 ### 4- Merge
 
 ### 5- Detached HEAD
+
+git config --global --replace-all alias.s "status-s" 
+git config --global --replace-all alias.ci "commit" 
+git config --global --replace-all alias.l "log --oneline" 
