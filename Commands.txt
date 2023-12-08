@@ -19,3 +19,7 @@ Pour chaque commande git que vous exécutez, collez la dans un fichier "Commands
 git config --global --replace-all alias.s "status-s" 
 git config --global --replace-all alias.ci "commit" 
 git config --global --replace-all alias.l "log --oneline" 
+
+
+git config --global user.name "VotreNomUtilisateur"
+git config --global user.email "votre@email.com"
